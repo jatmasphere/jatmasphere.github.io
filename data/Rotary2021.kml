@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Rotary2021</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>rotary_lowa_2021.csv</name>
+      <Placemark>
+        <name>87.0</name>
+        <description><![CDATA[sex: Female<br>location: RotaryPk<br>lat: 36.499264<br>long: -87.268960<br>county: Montgomery<br>state: TN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="sex">
+            <value>Female</value>
+          </Data>
+          <Data name="location">
+            <value>RotaryPk</value>
+          </Data>
+          <Data name="lat">
+            <value>36.499264</value>
+          </Data>
+          <Data name="long">
+            <value>-87.268960</value>
+          </Data>
+          <Data name="county">
+            <value>Montgomery</value>
+          </Data>
+          <Data name="state">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -87.26896,36.499264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>111.0</name>
+        <description><![CDATA[sex: Male<br>location: RotaryPk<br>lat: 36.499264<br>long: -87.268960<br>county: Montgomery<br>state: TN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="sex">
+            <value>Male</value>
+          </Data>
+          <Data name="location">
+            <value>RotaryPk</value>
+          </Data>
+          <Data name="lat">
+            <value>36.499264</value>
+          </Data>
+          <Data name="long">
+            <value>-87.268960</value>
+          </Data>
+          <Data name="county">
+            <value>Montgomery</value>
+          </Data>
+          <Data name="state">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -87.26896,36.499264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>135.0</name>
+        <description><![CDATA[sex: Female<br>location: RotaryPk<br>lat: 36.496260<br>long: -87.262690<br>county: Montgomery<br>state: TN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="sex">
+            <value>Female</value>
+          </Data>
+          <Data name="location">
+            <value>RotaryPk</value>
+          </Data>
+          <Data name="lat">
+            <value>36.496260</value>
+          </Data>
+          <Data name="long">
+            <value>-87.262690</value>
+          </Data>
+          <Data name="county">
+            <value>Montgomery</value>
+          </Data>
+          <Data name="state">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -87.26269,36.49626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

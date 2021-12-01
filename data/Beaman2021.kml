@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Beaman LOWA</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>beamanlowa2021.csv</name>
+      <Placemark>
+        <name>112.0</name>
+        <description><![CDATA[sex: Male<br>location: Beaman<br>lat: 36.259250<br>long: -86.913210<br>county: Davidson<br>state: TN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="sex">
+            <value>Male</value>
+          </Data>
+          <Data name="location">
+            <value>Beaman</value>
+          </Data>
+          <Data name="lat">
+            <value>36.259250</value>
+          </Data>
+          <Data name="long">
+            <value>-86.913210</value>
+          </Data>
+          <Data name="county">
+            <value>Davidson</value>
+          </Data>
+          <Data name="state">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.91321,36.25925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>113.0</name>
+        <description><![CDATA[sex: Male<br>location: Beaman<br>lat: 36.259250<br>long: -86.913210<br>county: Davidson<br>state: TN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="sex">
+            <value>Male</value>
+          </Data>
+          <Data name="location">
+            <value>Beaman</value>
+          </Data>
+          <Data name="lat">
+            <value>36.259250</value>
+          </Data>
+          <Data name="long">
+            <value>-86.913210</value>
+          </Data>
+          <Data name="county">
+            <value>Davidson</value>
+          </Data>
+          <Data name="state">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.91321,36.25925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>114.0</name>
+        <description><![CDATA[sex: Male<br>location: Beaman<br>lat: 36.259360<br>long: -86.917820<br>county: Davidson<br>state: TN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="sex">
+            <value>Male</value>
+          </Data>
+          <Data name="location">
+            <value>Beaman</value>
+          </Data>
+          <Data name="lat">
+            <value>36.259360</value>
+          </Data>
+          <Data name="long">
+            <value>-86.917820</value>
+          </Data>
+          <Data name="county">
+            <value>Davidson</value>
+          </Data>
+          <Data name="state">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.91782,36.25936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>115.0</name>
+        <description><![CDATA[sex: Male<br>location: Beaman<br>lat: 36.259590<br>long: -86.919860<br>county: Davidson<br>state: TN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="sex">
+            <value>Male</value>
+          </Data>
+          <Data name="location">
+            <value>Beaman</value>
+          </Data>
+          <Data name="lat">
+            <value>36.259590</value>
+          </Data>
+          <Data name="long">
+            <value>-86.919860</value>
+          </Data>
+          <Data name="county">
+            <value>Davidson</value>
+          </Data>
+          <Data name="state">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.91986,36.25959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>131.0</name>
+        <description><![CDATA[sex: Male<br>location: Beaman<br>lat: 36.259380<br>long: -86.922810<br>county: Davidson<br>state: TN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="sex">
+            <value>Male</value>
+          </Data>
+          <Data name="location">
+            <value>Beaman</value>
+          </Data>
+          <Data name="lat">
+            <value>36.259380</value>
+          </Data>
+          <Data name="long">
+            <value>-86.922810</value>
+          </Data>
+          <Data name="county">
+            <value>Davidson</value>
+          </Data>
+          <Data name="state">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.92281,36.25938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>134.0</name>
+        <description><![CDATA[sex: Male<br>location: Beaman<br>lat: 36.259210<br>long: -86.912450<br>county: Davidson<br>state: TN]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="sex">
+            <value>Male</value>
+          </Data>
+          <Data name="location">
+            <value>Beaman</value>
+          </Data>
+          <Data name="lat">
+            <value>36.259210</value>
+          </Data>
+          <Data name="long">
+            <value>-86.912450</value>
+          </Data>
+          <Data name="county">
+            <value>Davidson</value>
+          </Data>
+          <Data name="state">
+            <value>TN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.91245,36.25921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
