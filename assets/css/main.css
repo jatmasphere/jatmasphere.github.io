@@ -2114,6 +2114,13 @@ input, select, textarea {
 			margin: 0 2em 2em 0;
 			top: 0.25em;
 		}
+		
+				
+		.image.top {
+			float: center;
+			margin: 0 0 0 0;
+			top: 0.25em;
+		}
 
 		.image.right {
 			float: right;
@@ -2128,7 +2135,10 @@ input, select, textarea {
 		.image.center {
 			max-width: 20%;
 		}
-			.image.left img, .image.center img, .image.right img {
+				.image.top {
+			max-width: 100%;
+		}
+			.image.left img, .image.center img, .image.right img, .image.top img {
 				width: 100%;
 			}
 
@@ -2496,7 +2506,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #0ba90e;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2506,7 +2516,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #0ba90e !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2514,7 +2524,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #0ba90e !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3283,7 +3293,7 @@ input, select, textarea {
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
 				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #2E3842;
+				color: #0ba90e;
 			}
 
 				.wrapper.style5 input[type="submit"]:hover,
