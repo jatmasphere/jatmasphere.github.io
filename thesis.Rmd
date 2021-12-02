@@ -69,10 +69,8 @@ th, td {padding: 5px;}
 </style>
 ```
 
-<center>![](images/feeding.png){width=70%}</center>
-<center><span style="color:white">**A male from our Beaman Park site "Tailgate"**</center>
-$~$
-$~$
+<center>![](images/lowa2.png){width=80%}</center>
+  
 
 # <span style="color:white">Introduction
   
@@ -87,6 +85,7 @@ $~$
   
 <span style="color:white">While the frequency of extrapair matings have been more extensively studied in species with dense populations, their prevalence in species that have lower population densities are not as well understood. The Louisiana Waterthrush (Parkesia motacilla), hereafter LOWA, is a warbler (Parulidae) species that breeds in the eastern United States, and has a uniquely restrictive breeding territory (Mulvihill, 2002). Breeding territories for LOWA are established primarily along perennial streams in mature deciduous forests, creating linear territories up to 1.5 km long (Mattson and Cooper, 2009). Due to this unique territory structure, the LOWA is a prime species to study the frequency of extra-pair fertilizations. The linear nature of their territory typically allows for at most two immediate neighbors, which greatly reduces the accessibility of extra-pair fertilization opportunities compared to other species with a more dense population structure, as would be the case in species with non-linear territories (Craig, 1985, Mulvihill, 2002). The prevalence of extrapair breeding behavior in LOWA has not been studied, and this research could add important information to understanding the genetic structure within its breeding system.
   
+<center>![](images/lowa3.png){width=60%}</center>
   
 <span style="color:white">Louisiana Waterthrush often return to the same breeding grounds every year, which in turn often means that they breed near the same limited number of neighbors, reducing the genetic variation between available mating partners (Mays, 2001, Mattsson et al., 2011). Having a limited number of neighbors could be a concern in species like LOWA that require large territory ranges or have highly-specific habitat types, essentially causing a geographic barrier to extra-pair mating opportunities (Mordecai et al., 2011). Low population numbers and habitat fragmentation caused by human activity can similarly reduce the number of available mates (Mattsson et al., 2011). Habitat fragmentation is a major contributor to population decline for almost every species; in addition to breaking up larger tracts of land and thus reducing the number of neighbors within a population, the environmental barriers from fragmented habitats could also decrease the likelihood of LOWA successfully being able to seek out extra-pair mating opportunities (Mattsson et al., 2011). 
   
@@ -95,8 +94,12 @@ $~$
   
   
 <span style="color:white">Understanding the genetic diversity of songbird populations, such as the Louisiana Waterthrush, is essential information that allows us to better comprehend how both humans and natural events may impact those species. This information can additionally provide insight into the importance of protecting these habitats and corridors necessary for their survival and ability to flourish. Here I will investigate the frequency of extra-pair fertilization in LOWA and ask if the number of extrapair young in nests is related to population density. Specifically, I hypothesize that LOWA population density is positively correlated with the number of nestlings that are the result of extra-pair fertilization. 
-$~$
-
+  
+  
+# <span style="color:white">Methods
+  
+## <span style="color:white">Locating territories
+  
 ```{r setup, include=FALSE}
 # install.packages('pacman')
 # pacman::p_load("ggsn","leaflet","mapdata","maptools","OpenStreetMap","rgdal","tidyverse")
@@ -109,7 +112,8 @@ library(rgdal)
 library(ggspatial)
 library(ggsn)
 ```
-
+  
+  
 ```{r, include=FALSE}
 state <- map_data("state")
 county <- map_data("county")
@@ -154,8 +158,15 @@ ggplot() + geom_polygon(data = state, aes(x=long, y = lat, group = group),
        County, one site is located in Cheatham County, and one site is located in Davidson County.                      ")
 ```
   
-  $~$
-  $~$
+  
+<span style="color:white">The first step to my research is to locate Louisiana Waterthrush territories in the greater Clarksville area. Many LOWA breeding territories are already known from previous students’ research in the Woltmann lab. Finding the locations will primarily include re-locating these known territories and verifying which birds are occupying the territories. Furthermore, I would like to search for additional isolated-pair territory sites to have a stronger genetic comparison between the low-density and higher-density populations with multiple LOWA pairs. 
+  
+  
+<span style="color:white">LOWA occupy territories in riparian forested habitats with fast-moving streams. These streams also require some amount of sloped or cut banks for LOWA nesting, and are often found to prefer a dense, oak-forest canopy cover (Eaton, 1958). The territory of a LOWA extends anywhere between 200m – 1.5km in length along the stream, with an average length of 400m, and only extends approximately 10m onto either side of the stream bank (Eaton, 1958). Males arrive in Tennessee for the breeding season as early as late March, but the average arrival time of males in often closer to mid-April, where they will immediately establish a breeding territory. Female LOWA usually arrive in mid-late April (Eaton, 1958). 
+  
+  
+<span style="color:white">**You can explore each of these sites in more detail with these interactive maps:**
+  
   
 ```{r, include=FALSE}
 lowaOGR <- readOGR("./data/Beaman2021.kml")
@@ -242,8 +253,7 @@ leaflet(lowa4OGR) %>%
     overlayGroups = "Cheatham WMA")
 ```
 
-<center>![](images/rotaryfemale.JPG){width=60%}</center>
-<center><span style="color:navy">**A female from our Rotary Park site**</span></center>
-$~$
-$~$  
+<center>![](images/lowa1.png){width=80%}</center>
+  
+  
 </body>
