@@ -34,7 +34,7 @@ editor_options:
 h1.title {
   font-size: 40px;
   font-family: "Times New Roman", Times, serif;
-  color: Black;
+  color: black;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ th, td {padding: 5px;}
 <center>![](images/lowa2.png){width=80%}</center>
   
 
-# <span style="color:white">Introduction
+# <span style="color:#7be29b">**Introduction**
   
 <span style="color:white">A typical songbird family is often depicted as a dedicated pair of two birds who raise their own clutch of offspring together. However, this concept of an exclusive commitment between two parent birds is not as common as often believed. While most songbirds form these seemingly committed breeding pairs, the practice of extra-pair fertilizations, or copulation with birds other than a pair-bonded or social mate, occur more often than previously understood. This breeding practice, called “social monogamy”, occurs in up to 90% of passerine birds (Van Noordwijk, 2002). One reason why birds may seek out extra-pair fertilizations is because true monogamy, known as “sexual monogamy”, often restricts the breeding pair by having fewer opportunities to spread their genes, and requiring more time spent rearing a limited number of young (Mays, 2001). Social monogamy could act as a method in which birds rely on a mate for territory and nest protection, while the genetic polygamy can also increase the likelihood of successful fertilizations and increase the chances of producing offspring that are able to survive. 
   
@@ -96,9 +96,9 @@ th, td {padding: 5px;}
 <span style="color:white">Understanding the genetic diversity of songbird populations, such as the Louisiana Waterthrush, is essential information that allows us to better comprehend how both humans and natural events may impact those species. This information can additionally provide insight into the importance of protecting these habitats and corridors necessary for their survival and ability to flourish. Here I will investigate the frequency of extra-pair fertilization in LOWA and ask if the number of extrapair young in nests is related to population density. Specifically, I hypothesize that LOWA population density is positively correlated with the number of nestlings that are the result of extra-pair fertilization. 
   
   
-# <span style="color:white">Methods
+# <span style="color:#7be29b">**Methods**
   
-## <span style="color:white">Locating territories
+## <span style="color:#7be29b">*Locating territories*
   
 ```{r setup, include=FALSE}
 # install.packages('pacman')
@@ -160,6 +160,9 @@ ggplot() + geom_polygon(data = state, aes(x=long, y = lat, group = group),
   
   
 <span style="color:white">The first step to my research is to locate Louisiana Waterthrush territories in the greater Clarksville area. Many LOWA breeding territories are already known from previous students’ research in the Woltmann lab. Finding the locations will primarily include re-locating these known territories and verifying which birds are occupying the territories. Furthermore, I would like to search for additional isolated-pair territory sites to have a stronger genetic comparison between the low-density and higher-density populations with multiple LOWA pairs. 
+  
+  
+<center>![](images/stream.jpg){width=80%}</center>
   
   
 <span style="color:white">LOWA occupy territories in riparian forested habitats with fast-moving streams. These streams also require some amount of sloped or cut banks for LOWA nesting, and are often found to prefer a dense, oak-forest canopy cover (Eaton, 1958). The territory of a LOWA extends anywhere between 200m – 1.5km in length along the stream, with an average length of 400m, and only extends approximately 10m onto either side of the stream bank (Eaton, 1958). Males arrive in Tennessee for the breeding season as early as late March, but the average arrival time of males in often closer to mid-April, where they will immediately establish a breeding territory. Female LOWA usually arrive in mid-late April (Eaton, 1958). 
@@ -253,7 +256,95 @@ leaflet(lowa4OGR) %>%
     overlayGroups = "Cheatham WMA")
 ```
 
-<center>![](images/lowa1.png){width=80%}</center>
+## <span style="color:#7be29b">*Collecting DNA samples*
+  
+<span style="color:white">Once a breeding pair in located on territory, the individual birds need to be identified. If they are a returning pair, this will be a simple matter of re-sighting and recording the color bands on their legs to identify the individual. If the bird has bands already, re-capture is not necessary, as measurements and blood samples have been previously obtained from that individual by Woltmann lab. If an unmarked bird is located and establishes a breeding territory, then that individual needs to be captured, banded, and a blood sample needs to be obtained for parentage analysis.
   
   
+<center>![](images/lowa5.jpg){width=53%} ![](images/bands1.jpg){width=40%}</center>
+  
+  
+<span style="color:white">To capture a bird, a mist net will be set up in a location on the territory where the bird can be lured in. A playback speaker is placed at the base of the net, and set to play a territorial LOWA song for our target bird, which will elicit a territorial response from the male and cause him to fly at the speaker, and therefore into the net (Mattsson et al., 2011). Upon capture, the bird is banded with a uniquely numbered aluminum band (USGS), and a combination of color bands to identify the individual by sight in the field. Age of the bird is measured based on behavior and plumage characteristics, and sex determined based on behavior and presence of a cloacal protuberance, but if unable to determine in the field (usually earlier in the season), sex can be verified based on DNA analysis in the lab. A blood sample is also collected from the inner vein of the left-side wing for genetic analysis in the lab. 
+  
+  
+## <span style="color:#7be29b">*Locating nests*
+  
+<span style="color:white">Parentage analysis of nestlings is the primary goal of this research, so locating nests is an essential part of this study. Locating nests is best done by locating a singing male in the field, and using him to find the female when he interacts with her. Following the female through careful observation is the best way to locate her nest when she eventually flies to it to build, incubate, or feed nestlings. LOWA nests are open-cup nests of grasses and moss that are built on the ground, tucked into the stream bank and often hidden by an overhang of roots or moss (Forbes and O’Regan, 1960). Once the nest is located, the nest is checked to see if eggs or chicks are present, and if chicks are present, they are aged based on plumage growth. When the chicks are 6 or 7 days old, they are banded and have blood samples taken in the same manner as the adult birds outlined in the previous section. 
+Parentage analysis
+  
+  
+<center>![](images/bank1.jpg){width=43%}![](images/bank2.jpg){width=40%}</center>
+<center>![](images/baby1.jpg){width=40%}![](images/baby2.jpg){width=43%}</center>
+  
+	
+<span style="color:white">In the lab, DNA is extracted from the blood samples for both sex ID and parentage analysis. For sex ID, the DNA is replicated using the polymerase chain reaction (PCR) protocol, and run through a gel electrophoresis to identify the sex of adult birds, if unable to determine in-field. Parentage is assessed with microsatellite markers that have been developed by Woltmann lab (Von Hagen et al., 2016). Microsatellite loci are amplified by PCR using fluorescently labeled primers. The amplified PCR products are run on a capillary sequencing platform to determine genotypes. 
+  
+  
+# <span style="color:#7be29b">**Analyses**
+  
+  
+<center>![](images/load.jpg){width=40%} ![](images/electro.jpg){width=40%}</center>
+  
+  
+<span style="color:white">GENEMARKER is a software program by Soft Genetic Inc. that will be used to genotype all individuals at each locus. MICROCHECKER (van Oosterhout et al. 2004) looks for evidence of null alleles, large allele drop-out, or problems arising from DNA stutter. GENEPOP (Rousset 2008) will be used to run probability tests to check for deviations from Hardy-Weinberg expectations and evidence for linkage disequilibrium among all microsatellite loci.
+  
+  
+<center>![](images/gel.png){width=60%}</center>
+  
+  
+<span style="color:white">The program CERVUS will be used for the parentage analysis. CERVUS uses a likelihood approach to assign parentage: Likelihood ratios are calculated allowing for the possibility that the genotypes of parents and offspring may be occasionally mistyped or mismatched, and determines via simulation the level of confidence in the parentages assigned. COLONY is another commonly-used program for parentage analyses. COLONY uses a maximum likelihood method to assign sibship and parentage together, using individual multilocus genotypes at a number of codominant or dominant markers. COLONY can be used to estimate full- and half-sib relationships, assign parentage, infer mating system (polygamous/monogamous), and reproductive skew in both diploid and haplo-diploid species. The COLONY software program is newer and requires fewer loci than CERVUS for a parentage assignment with a similar level of accuracy (Karaket, and Poompuang, 2012), but both will be used in analysis to give more confidence to the results. A proportional test (X2) will be used to assess differences in the proportion of extrapair offspring to non-extrapair offspring in populations of LOWA with different densities.
+  
+  
+  
+  
+# <span style="color:#7be29b">**Literature Cited**
+<span style="color:white">Berzins, L., and R. Dawson. 2019. Does experimentally altered plumage brightness influence extra-pair mating success in female tree swallows (Tachycineta bicolor)? Canadian Journal of Zoology 142.
+  
+<span style="color:white">Craig, R. J. 1985. Comparative habitat use by Louisiana and Northern Waterthrushes. Wilson Ornithological Society 97:347-355. 
+  
+<span style="color:white">Eaton, S. W. 1958. A life history study of the Louisiana Waterthrush. The Wilson Bulletin 70:210–236.
+  
+<span style="color:white">Forbes, H. S., and J. D. O’Regan. 1960. Nesting of Louisiana Waterthrush and White-Throated Sparrow in eastern coastal Massachusetts. The Auk 77:92.
+  
+<span style="color:white">Hajdasz, A., A. E. McKellar, L. M. Ratcliffe, P. T. Boag, P. P. Marra, and M. W. Reudink. 2019. Extra-pair offspring are less heterozygous than within-pair offspring in American redstarts Setophaga ruticilla. Journal of Avian Biology 50.
+  
+<span style="color:white">Karaket, T., and S. Poompuang. 2012. Short communication CERVUS vs. COLONY for successful parentage and sibship determinations in freshwater prawn Macrobrachium rosenbergii de Man. Aquaculture 324–325:307–311.
+  
+<span style="color:white">Kleven, O., F. Fossøy, T. Laskemoen, R. J. Robertson, G. Rudolfsen, and J. T. Lifjeld. 2009. Comparative evidence for the evolution of sperm swimming speed by sperm competition and female sperm storage duration in passerine birds. Evolution 63:2466–2473.
+  
+<span style="color:white">Mays, L. H., Jr. 2001. Extra-pair copulations, sexual conflict, and constraints on female breeding tactics in a monogamous passerine, the yellow-breasted chat, Icteria virens. Dissertation. University of Kentucky, Lexington, Kentucky, USA.
+  
+<span style="color:white">Mattsson, B. J., and R. J. Cooper. 2006. Louisiana Waterthrushes (Seiurus motacilla) and habitat assessments as cost-effective indicators of instream biotic integrity. Freshwater Biology 51:1941–1958.
+  
+<span style="color:white">Mattsson, B. J., and R. J. Cooper. 2009. Multiscale analysis of the effects of rainfall extremes on reproduction by an obligate riparian bird in urban and rural landscapes. Auk 126:64–76.
+  
+<span style="color:white">Mattsson, B. J., S. C. Latta, R. J. Cooper, and R. S. Mulvihill. 2011. Latitudinal variation in reproductive strategies by the migratory Louisiana Waterthrush. Condor 113:412–418.
+  
+<span style="color:white">Moreno, J. 2016. The unknown life of floaters: The hidden face of sexual selection. Ardeola 63:5–33.
+  
+<span style="color:white">Mordecai, R. S., B. J. Mattsson, C. J. Tzilkowski, and R. J. Cooper. 2011. Addressing challenges when studying mobile or episodic species: hierarchical Bayes estimation of occupancy and use. Journal of Applied Ecology 48:56-66.
+  
+<span style="color:white">Mulvihill, R. S., A. Cunkelman, L. Quattrini, T. J. O’Connell, and T. L. Master. 2002. Opportunistic polygyny in the Louisiana Waterthrush. The Wilson Bulletin 114:106–113.
+  
+<span style="color:white">Neudorf, D. L. 1996. A dual system of female control of extra-pair copulations in the hooded warbler. Thesis. York University, North York, Ontario, Canada. 
+  
+<span style="color:white">Queller, D. C., J. E. Strassman, and C. R. Hughes. 1993. Microsatellites and kinship. Trends in Ecology & Evolution 8:285–288.
+  
+<span style="color:white">Rivers, P. R., and E. H. DuVal. 2020. Multiple paternity in a lek mating system: Females mate multiply when they choose inexperienced sires. Journal of Animal Ecology 89:1142–1152.
+  
+<span style="color:white">Rousset, F. 2008. GENEPOP ' 007: a complete re-implementation of the GENEPOP software for Windows and Linux. Molecular Ecology Resources 8(1):103-6.
+  
+<span style="color:white">Van Noordwijk, A. J. 2002. Excuses for avian infidelity. Nature 419:571.
+  
+<span style="color:white">Van Oosterhout, C., W.F. Hutchinson, D.P.M. Wills, and P. Shipley. 2004, MICRO‐CHECKER: software for identifying and correcting genotyping errors in microsatellite data. Molecular Ecology Notes, 4: 535-538.
+  
+<span style="color:white">Von Hagen, R. L., R. A. Khan, S. Woltmann. 2016. Fifteen novel microsatellites for the Louisiana Waterthrus.es: Parulidae: Parkesia motacilla) using MiSeq sequencing. Unpublished manuscript, Austin Peay State University, Clarksville, Tennessee, USA.
+  
+<span style="color:white">Westneat, D. F. 1990. Genetic parentage in the Indigo Bunting: A study using DNA fingerprinting. Behavioral Ecology and Sociobiology 27:67–76.
+  
+<span style="color:white">Wink, M. 2006. Use of DNA markers to study bird migration. Journal of Ornithology 147:234–244. 
+
+  
+$~$
+$~$
 </body>
